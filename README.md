@@ -38,3 +38,15 @@ Python programming portfolio - Bishop's Stortford College STEM course
 ---
 
 ##Skills I Have Developed
+
+**Programming Concepts**
+- Writing clean, well-commented Python code
+- Using functions to organise and reuse code 
+- Handling user input safely with validation 
+
+**Tools and Technologies** 
+- Python 3 (Thonny IDE)
+- Juypter Notebooks
+- Git version control 
+- Github for code sharing and portfolio management 
+- Markdown for documentation
