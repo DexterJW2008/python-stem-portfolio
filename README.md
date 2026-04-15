@@ -50,3 +50,10 @@ Python programming portfolio - Bishop's Stortford College STEM course
 - Git version control 
 - Github for code sharing and portfolio management 
 - Markdown for documentation
+
+--- 
+
+## Contact 
+
+- **GitHub:** [DexterJW2008]
+- **Email:** [26willid@bscmail.org]
