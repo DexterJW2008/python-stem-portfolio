@@ -57,3 +57,34 @@ Python programming portfolio - Bishop's Stortford College STEM course
 
 - **GitHub:** [DexterJW2008]
 - **Email:** [26willid@bscmail.org]
+
+## Project 1: Unit Converter 
+
+``` python
+def km_to_miles(km):
+    """Convert kilometres to miles."""
+    miles = km * 0.621371
+    return miles
+
+def miles_to_km(miles):
+    """Convert miles to kilometres."""
+    km = miles / 0.621371
+    return km
+
+
+def show_menu():
+    print("=== Unit Converter ===")
+    print("1. Kilometres to Miles")
+    print("2. Miles to Kilometres")
+    print("3. Celsius to Fahrenheit")
+    print("4. Fahrenheit to Celsius")
+
+def main():
+    show_menu()
+    choice = input("Enter your choice (1-4): ")
+    
+    if choice == "1":
+        km = float(input("Enter kilometres: "))
+        result = km_to_miles(km)
+        print(f"{km} km = {result:.2f} miles")
+```
