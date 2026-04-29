@@ -60,6 +60,7 @@ Python programming portfolio - Bishop's Stortford College STEM course
 - **Email:** [26willid@bscmail.org]
 
 ## Project 1: Unit Converter 
+[In this project I made a converter that changes units to different units, for exampe kilometers to miles.]
 
 ``` python
 def km_to_miles(km):
@@ -91,6 +92,7 @@ def main():
 ```
 
 ## Project 2: Number Guessing Game
+[In this project I created a game that has a number in it and the user has to guess what the number is, whilst gaining hints if they are to low or to high.]
 
 ``` python
 import random
@@ -116,9 +118,12 @@ def play_game():
 
 play_game()
 
+![alt text](image.png)
+
 ```
 
 ## Project 3: To do list
+[This is a project that you can make a list of activities that you need to do as well as remove activites that you have done.]
 
 ``` python
 
@@ -173,117 +178,97 @@ def main():
 
 main()
 
-```
+![alt text](image-1.png)
 
-## Project 4: PED calculator - Economics 
-
-``` python
-def ped():
-
-    num1 = float(input("Enter origional value for quantity demanded"))
-    num2 = float(input("Enter second value for quantity demanded"))
-    num3 = float(input("Enter origional value for quantity demanded"))
-    num4 = float(input("Enter original value for price"))
-    num5 = float(input("Enter second value for price"))
-    num6 = float(input("Enter origional value for price"))
-
-    difference = num1 - num2
-    percentagedif = difference/num3
-
-    difference = num4 - num5
-    percentagediff = difference/num6
-
-    print(f"PED: {(percentagedif/percentagediff)}")
-    
-def percentageChange():
-  
-     num1 = float(input("Enter original value"))
-     num2 = float(input("Enter second value"))
-     num3 = float(input("Enter original value"))
-     
-     difference = num1 - num2
-     percentagedif = difference/num3
-     
-     print(f"Percentage change: {(percentagedif*100)}")
 
 ```
 
-## Project 5: Calculator
+## Project 4: Calculator
 
 ``` python
-
-
-        
-
 def main():
     menu = """
 1. Volume of a cube
 2. PED calculation
 3. Percentage change
 4. Quit"""
+    
     while True:
         print(menu)
         while True:
             try:
-                menuChoice = int(input('Enter a menu choice:'))
+                menuChoice = int(input('Enter a menu choice: '))
                 break
-            except:
+            except ValueError:
                 print("Please enter a number from the menu:")
-        if menuChoice ==4:
+        
+        if menuChoice == 4:
             break
-        elif menuChoice ==1:
+        elif menuChoice == 1:
             volumeCube()
-        elif menuChoice ==2:
+        elif menuChoice == 2:
             ped()
-        elif menuChoice ==3:
+        elif menuChoice == 3:
             percentageChange()
-            
+        else:
+            print("Invalid choice. Please choose 1–4.")
+
 
 def volumeCube():
     while True:
         try:
-            length = float(input('length: '))
-            width = float(input('width: '))
-            height = float(input('height: '))
+            length = float(input('Length: '))
+            width = float(input('Width: '))
+            height = float(input('Height: '))
             
-            volume = length*height*width
+            volume = length * width * height
             print(f'Volume is {volume} cubic units')
             break
         except ValueError:
-            print('only numbers may be entered')
-            
+            print('Only numbers may be entered')
+
 
 def ped():
+    print("Price Elasticity of Demand Calculator")
 
-    num1 = float(input("Enter origional value for quantity demanded"))
-    num2 = float(input("Enter second value for quantity demanded"))
-    num3 = float(input("Enter origional value for quantity demanded"))
-    num4 = float(input("Enter original value for price"))
-    num5 = float(input("Enter second value for price"))
-    num6 = float(input("Enter origional value for price"))
+    q1 = float(input("Enter original quantity demanded: "))
+    q2 = float(input("Enter new quantity demanded: "))
+    p1 = float(input("Enter original price: "))
+    p2 = float(input("Enter new price: "))
 
-    difference = num1 - num2
-    percentagedif = difference/num3
+    # Percentage change in quantity
+    pct_q = (q2 - q1) / q1
 
-    difference = num4 - num5
-    percentagediff = difference/num6
+    # Percentage change in price
+    pct_p = (p2 - p1) / p1
 
-    print(f"PED: {(percentagedif/percentagediff)}")
-    
+    ped_value = pct_q / pct_p
+
+    print(f"PED: {ped_value}")
+
+
 def percentageChange():
-  
-     num1 = float(input("Enter original value"))
-     num2 = float(input("Enter second value"))
-     num3 = float(input("Enter original value"))
-     
-     difference = num1 - num2
-     percentagedif = difference/num3
-     
-     print(f"Percentage change: {(percentagedif*100)}")
+    original = float(input("Enter original value: "))
+    new = float(input("Enter new value: "))
+
+    pct_change = ((new - original) / original) * 100
+
+    print(f"Percentage change: {pct_change}%")
+
+
+main()
+
+![alt text](image-3.png)
+
+
+        
+
+
 
 ```
 
-## Prpject 6: Multiplication table 
+## Prpject 5: Multiplication table 
+[]
 
 ``` python
 
@@ -296,82 +281,135 @@ for i in range(1, 11):
     result = number * i
     print(f"{number} × {i} = {result}")
 
+    ![alt text](image-2.png)
+
 ```
 
-## Project 7: Databse 
+## Project 6: Databse 
+[This project is all about a databse that stores films, directors and my rating of it]
 
-``` python
+```
+
 import sqlite3
+
 def dbConnection():
-     #Create connection to database
+    """Create connection and ensure table exists."""
     conn = sqlite3.connect('movie_list.db')
     cursor = conn.cursor()
-    
-    #Create table
+
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS movielist (
-              item_id INTEGER PRIMARY KEY AUTOINCREMENT,
-              item_name TEXT NOT NULL,
-              year INTEGER NOT NULL,
-              director TEXT, 
-              genre TEXT NOT NULL,
-              rating INTEGER
+            item_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            item_name TEXT NOT NULL,
+            year INTEGER NOT NULL,
+            director TEXT, 
+            genre TEXT NOT NULL,
+            rating INTEGER
         )
     ''')
-    #Save changes and close
+
+    conn.commit()
     return conn, cursor
-    conn.commit(), cursor
-    conn.close()
-    
+
 
 def insertDatawithParameters():
-    '''add data to the database table'''
+    """Add data to the database table."""
     query = '''INSERT INTO movielist (item_name, year, director, genre, rating)
-VALUES (?, ?, ?, ?, ?);'''
-    item_name = input('Enter the item name;')
-    year = int(input('Enter the year;'))
-    director = input('Enter the directors name;')
-    genre = input('Enter the genre:')
-    rating = int(input('Enter your rating:'))
+               VALUES (?, ?, ?, ?, ?)'''
+
+    item_name = input('Enter the movie name: ')
+    year = int(input('Enter the year: '))
+    director = input('Enter the director: ')
+    genre = input('Enter the genre: ')
+    rating = int(input('Enter your rating (1–10): '))
+
     conn, cursor = dbConnection()
-    cursor.execute(query,(item_name, year, director, genre, rating))
+    cursor.execute(query, (item_name, year, director, genre, rating))
     conn.commit()
     conn.close()
-    print("Record was succesfully saved")
-    
+
+    print("Record was successfully saved")
+
+
 def readDataBase():
-    '''read from a table'''
-    query = """SELECT * from movielist"""
+    """Read and display all movies."""
+    query = "SELECT * FROM movielist"
+
     conn, cursor = dbConnection()
-    cursor.execute(query,)
+    cursor.execute(query)
     results = cursor.fetchall()
-    print(f'Item name	Year	Director	Genre	Rating')
-    for i in range(len(results)):
-        print(f'{results[i][2]}		{results[i][3]}		{results[i][4]}')
+
+    print("ID | Movie | Year | Director | Genre | Rating")
+    print("-" * 60)
+
+    for row in results:
+        print(f"{row[0]} | {row[1]} | {row[2]} | {row[3]} | {row[4]} | {row[5]}")
+
     conn.close()
-    
-    
-#MAIN
+
+
+def removeItem():
+    """Delete a movie by ID."""
+    movie_id = int(input("Enter the ID of the movie to remove: "))
+
+    conn, cursor = dbConnection()
+    cursor.execute("DELETE FROM movielist WHERE item_id = ?", (movie_id,))
+    conn.commit()
+    conn.close()
+
+    print("Movie removed (if ID existed).")
+
+
+def updateItem():
+    """Update a movie's rating."""
+    movie_id = int(input("Enter the ID of the movie to update: "))
+    new_rating = int(input("Enter the new rating: "))
+
+    conn, cursor = dbConnection()
+    cursor.execute("UPDATE movielist SET rating = ? WHERE item_id = ?", (new_rating, movie_id))
+    conn.commit()
+    conn.close()
+
+    print("Movie updated (if ID existed).")
+
+
 def menu():
-    title = 'Film List ratings'
-    line = '-'
-    menu = '''1. Add item(s)
-2. Show items
-3. Remove item
-4. Update itme
-5. Quit
-'''
-    print(f'{title}\n{line*len(title)}')
-    print(menu)
+    print("\nFilm List Ratings")
+    print("------------------")
+    print("1. Add item")
+    print("2. Show items")
+    print("3. Remove item")
+    print("4. Update item")
+    print("5. Quit\n")
+
+
 def main():
-    '''Main user interface'''
     while True:
         menu()
-        userChoice = int(input('Choose an option:'))
-        if userChoice == 5:
-            print('------------- End programme ---------')
-            break
-        elif userChoice ==1:
+        try:
+            userChoice = int(input("Choose an option: "))
+        except ValueError:
+            print("Please enter a number.")
+            continue
+
+        if userChoice == 1:
             insertDatawithParameters()
+        elif userChoice == 2:
+            readDataBase()
+        elif userChoice == 3:
+            removeItem()
+        elif userChoice == 4:
+            updateItem()
+        elif userChoice == 5:
+            print("------------- End programme ---------")
+            break
+        else:
+            print("Invalid option.")
+
+
+main()
+
+![alt text](image-4.png)
+
 
 ```
