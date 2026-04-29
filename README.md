@@ -31,10 +31,9 @@ Python programming portfolio - Bishop's Stortford College STEM course
 | 1 | [Unit Converter](#) | Variables, funcitons, input/output| ✅Complete |
 | 2 | [Number Guessing Game](#) | Loops, Conditional, Random | ✅Complete |
 | 3 | [To-Do List](#) | Lists, Functions, Data structures | ✅Complete |
-| 4 | [PED Calculator](#) | Dictionairies, validation, error handling | ✅Complete |
-| 5 | [Calculator](#) | Validation, error handling | ✅Complete |
-| 6 | [Multiplication Table](#) | loops | ✅Complete |
-| 7 | [Database](#) |  Add data - crude operations, update, read | ✅Complete |
+| 4 | [Calculator](#) | Validation, error handling | ✅Complete |
+| 5 | [Multiplication Table](#) | loops | ✅Complete |
+| 6 | [Database](#) |  Add data - crude operations, update, read | ✅Complete |
 
 ---
 
@@ -118,9 +117,9 @@ def play_game():
 
 play_game()
 
-![alt text](image.png)
 
 ```
+![alt text](image.png)
 
 ## Project 3: To do list
 [This is a project that you can make a list of activities that you need to do as well as remove activites that you have done.]
@@ -178,10 +177,11 @@ def main():
 
 main()
 
-![alt text](image-1.png)
 
 
 ```
+![alt text](image-1.png)
+
 
 ## Project 4: Calculator
 
@@ -257,15 +257,11 @@ def percentageChange():
 
 
 main()
-
-![alt text](image-3.png)
-
-
         
 
-
-
 ```
+
+![alt text](image-3.png)
 
 ## Prpject 5: Multiplication table 
 []
@@ -409,7 +405,8 @@ def main():
 
 main()
 
-![alt text](image-4.png)
+
 
 
 ```
+![alt text](image-4.png)
