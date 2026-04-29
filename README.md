@@ -277,9 +277,9 @@ for i in range(1, 11):
     result = number * i
     print(f"{number} × {i} = {result}")
 
-    ![alt text](image-2.png)
-
 ```
+
+![alt text](image-2.png)
 
 ## Project 6: Databse 
 [This project is all about a databse that stores films, directors and my rating of it]
