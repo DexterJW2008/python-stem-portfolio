@@ -7,12 +7,12 @@ Python programming portfolio - Bishop's Stortford College STEM course
 
 ---
 
-##About me 
+## About me 
 [I am Dexter, i am in year 12 at the school of Bishop's Stortford College. I was born in the year of 2008 on october 10th. I love to play football and go to the gym. I study economics, geography and DT. My favourite subject is DT because i love making stuff, however personally i find a lot of interest in geography because i find it very enjoyable. ]
 
 ---
 
-##Course Overview 
+## Course Overview 
 [During this course I have learnt the python fundamentals such as variables, input/output and data types. As well: 
 - Control structures (Loops and conditions)
 - Functions and modular code
@@ -25,19 +25,20 @@ Python programming portfolio - Bishop's Stortford College STEM course
 
 ---
 
-##Portfolio Projects 
+## Portfolio Projects 
 | # | Project | Key Skills | Status |
 |---|---|---|---|
 | 1 | [Unit Converter](#) | Variables, funcitons, input/output| ✅Complete |
 | 2 | [Number Guessing Game](#) | Loops, Conditional, Random | ✅Complete |
 | 3 | [To-Do List](#) | Lists, Functions, Data structures | ✅Complete |
-| 4 | [Student Grade Calculator](#) | Dictionairies, validation, error handling | ✅Complete |
-| 5 | [OOP Bank Account](#) | Classes, OOP principles | ✅Complete |
-| 6 | [Data Analysis Notebook](#) | Juypter Notebooks, data exploration | ✅Complete |
+| 4 | [PED Calculator](#) | Dictionairies, validation, error handling | ✅Complete |
+| 5 | [Calculator](#) | Validation, error handling | ✅Complete |
+| 6 | [Multiplication Table](#) | loops | ✅Complete |
+| 7 | [Database](#) |  Add data - crude operations, update, read | ✅Complete |
 
 ---
 
-##Skills I Have Developed
+## Skills I Have Developed
 
 **Programming Concepts**
 - Writing clean, well-commented Python code
