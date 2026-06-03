@@ -89,6 +89,7 @@ def main():
         result = km_to_miles(km)
         print(f"{km} km = {result:.2f} miles")
 ```
+[This works by enter a number like 1 mile and the code times this number by the conversion and provides the new number]
 
 ## Project 2: Number Guessing Game
 [In this project I created a game that has a number in it and the user has to guess what the number is, whilst gaining hints if they are to low or to high.]
@@ -120,6 +121,7 @@ play_game()
 
 ```
 ![alt text](image.png)
+[This project works, the computer has a randome number between 1 and 100, and you the player enter a number, if it is to high you have to guess again and vice versa]
 
 ## Project 3: To do list
 [This is a project that you can make a list of activities that you need to do as well as remove activites that you have done.]
@@ -181,7 +183,7 @@ main()
 
 ```
 ![alt text](image-1.png)
-
+[The program runs a simple loop that keeps a list called tasks, shows you a menu of options, and lets you either view the list, add a new item, or remove an existing one; each option calls a different function—show_tasks prints all tasks with numbers, add_task asks you for a new task and appends it to the list, and remove_task displays the tasks again and deletes the one whose number you enter—until you choose to quit, which breaks the loop and ends the program.]
 
 ## Project 4: Calculator
 
@@ -262,6 +264,7 @@ main()
 ```
 
 ![alt text](image-3.png)
+[Your calculator program runs a looped menu that lets the user choose between three different calculations—volume of a cube, price elasticity of demand (PED), and percentage change—and each option calls its own function to collect inputs, perform the math, and display the result; the menu keeps repeating until the user selects option 4 to quit, and the program also uses try/except blocks to prevent crashes when someone enters something that isn’t a number.]
 
 ## Prpject 5: Multiplication table 
 []
@@ -280,6 +283,7 @@ for i in range(1, 11):
 ```
 
 ![alt text](image-2.png)
+[Your multiplication‑table program is a simple script that asks the user for a number, then uses a `for` loop to multiply that number by every value from 1 to 10 and print each result in a clean, readable format; essentially, it takes one input and produces a full **multiplication table** by repeating the same calculation with different multipliers.]
 
 ## Project 6: Databse 
 [This project is all about a databse that stores films, directors and my rating of it]
@@ -410,3 +414,4 @@ main()
 
 ```
 ![alt text](image-4.png)
+[Your film‑database project works by creating a small **SQLite database** on your computer, then giving you a menu that lets you **add films, view them, update ratings, or delete entries**. Each menu option calls a different function: the program first ensures the database and table exist, then **insertDatawithParameters** collects movie details from the user and saves them; **readDataBase** retrieves and prints all stored films; **removeItem** deletes a movie by its ID; and **updateItem** changes the rating of a selected film. The `main()` loop keeps showing the menu until you choose to quit, making it a simple but complete CRUD system (Create, Read, Update, Delete) for managing your personal movie list.]
