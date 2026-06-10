@@ -58,7 +58,7 @@ Python programming portfolio - Bishop's Stortford College STEM course
 - **GitHub:** [DexterJW2008]
 - **Email:** [26willid@bscmail.org]
 
-## Project 1: Unit Converter 
+## Project 1: Unit Converter - Portfolio Projects
 [In this project I made a converter that changes units to different units, for exampe kilometers to miles.]
 
 ``` python
@@ -91,7 +91,7 @@ def main():
 ```
 [This works by enter a number like 1 mile and the code times this number by the conversion and provides the new number]
 
-## Project 2: Number Guessing Game
+## Project 2: Number Guessing Game - Portfolio Projects
 [In this project I created a game that has a number in it and the user has to guess what the number is, whilst gaining hints if they are to low or to high.]
 
 ``` python
@@ -123,7 +123,7 @@ play_game()
 ![alt text](image.png)
 [This project works, the computer has a randome number between 1 and 100, and you the player enter a number, if it is to high you have to guess again and vice versa]
 
-## Project 3: To do list
+## Project 3: To do list - Portfolio Projects
 [This is a project that you can make a list of activities that you need to do as well as remove activites that you have done.]
 
 ``` python
@@ -186,7 +186,7 @@ main()
 
 [The program runs a simple loop that keeps a list called tasks, shows you a menu of options, and lets you either view the list, add a new item, or remove an existing one; each option calls a different function—show_tasks prints all tasks with numbers, add_task asks you for a new task and appends it to the list, and remove_task displays the tasks again and deletes the one whose number you enter—until you choose to quit, which breaks the loop and ends the program.]
 
-## Project 4: Calculator
+## Project 4: Calculator - Portfolio Projects
 
 ``` python
 def main():
@@ -268,7 +268,7 @@ main()
 
 [The calculator program runs a looped menu that lets the user choose between three different calculations—volume of a cube, price elasticity of demand (PED), and percentage change—and each option calls its own function to collect inputs, perform the math, and display the result; the menu keeps repeating until the user selects option 4 to quit, and the program also uses try/except blocks to prevent crashes when someone enters something that isn’t a number.]
 
-## Prpject 5: Multiplication table 
+## Prpject 5: Multiplication table - Portfolio Projects
 []
 
 ``` python
@@ -288,7 +288,7 @@ for i in range(1, 11):
 
 [The multiplication‑table program is a simple script that asks the user for a number, then uses a `for` loop to multiply that number by every value from 1 to 10 and print each result in a clean, readable format; essentially, it takes one input and produces a full **multiplication table** by repeating the same calculation with different multipliers.]
 
-## Project 6: Databse 
+## Project 6: Databse - Portfolio Projects
 [This project is all about a databse that stores films, directors and my rating of it]
 
 ```
