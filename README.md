@@ -34,8 +34,8 @@ Python programming portfolio - Bishop's Stortford College STEM course
 | 4 | [Calculator](#) | Validation, error handling | ✅Complete |
 | 5 | [Multiplication Table](#) | loops | ✅Complete |
 | 6 | [Database](#) |  Add data - crude operations, update, read | ✅Complete |
-| 5 | [OOP Bank Account](#) | Classes, OOP principles | ✅ Complete |
-| 6 | [Data Analysis Notebook](#) | Jupyter Notebooks, data exploration | ✅ Complete |
+| 7 | [OOP Bank Account](#) | Classes, OOP principles | ✅ Complete |
+| 8 | [Data Analysis Notebook](#) | Jupyter Notebooks, data exploration | ✅ Complete |
 
 ---
 
