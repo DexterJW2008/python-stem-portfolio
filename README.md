@@ -13,7 +13,7 @@ I am Dexter, i am in year 12 at the school of Bishop's Stortford College. I was 
 ---
 
 ## Course Overview 
-[During this course I have learnt the python fundamentals such as variables, input/output and data types. As well: 
+During this course I have learnt the python fundamentals such as variables, input/output and data types. As well: 
 - Control structures (Loops and conditions)
 - Functions and modular code
 - Data Structures(lists, dictionaires, tuples, sets)
@@ -21,7 +21,7 @@ I am Dexter, i am in year 12 at the school of Bishop's Stortford College. I was 
 - File handling
 - Object-orientinal programming(OOP)
 - Versions control with Git and Github
-- Working with Juypter Notebooks]
+- Working with Juypter Notebooks
 
 ---
 
@@ -61,7 +61,7 @@ I am Dexter, i am in year 12 at the school of Bishop's Stortford College. I was 
 - **Email:** [26willid@bscmail.org]
 
 ## Project 1: Unit Converter - Portfolio Projects
-[In this project I made a converter that changes units to different units, for exampe kilometers to miles.]
+In this project I made a converter that changes units to different units, for exampe kilometers to miles.
 
 ``` python
 def km_to_miles(km):
@@ -162,10 +162,10 @@ main()
 ```
 <img width="180" height="308" alt="image" src="https://github.com/user-attachments/assets/0f6231e0-12a6-4bed-bad2-932ae45c4d8a" />
 
-[This works by enter a number like 1 mile and the code times this number by the conversion and provides the new number]
+This works by enter a number like 1 mile and the code times this number by the conversion and provides the new number
 
 ## Project 2: Number Guessing Game - Portfolio Projects
-[In this project I created a game that has a number in it and the user has to guess what the number is, whilst gaining hints if they are to low or to high.]
+In this project I created a game that has a number in it and the user has to guess what the number is, whilst gaining hints if they are to low or to high.
 
 ``` python
 import random
@@ -228,7 +228,7 @@ def main():
         # Update best score
         if best_score is None or attempts < best_score:
             best_score = attempts
-            print("🎉 New best score!")
+            print(" New best score!")
         
         print(f"Best score so far: {best_score} attempts")
 
@@ -245,10 +245,10 @@ main()
 ```
 <img width="289" height="314" alt="image" src="https://github.com/user-attachments/assets/447704f0-8df3-407b-b47f-60c171082bce" />
 
-[This project works, the computer has a randome number between 1 and 100, and you the player enter a number, if it is to high you have to guess again and vice versa]
+This project works, the computer has a randome number between 1 and 100, and you the player enter a number, if it is to high you have to guess again and vice versa
 
 ## Project 3: To do list - Portfolio Projects
-[This is a project that you can make a list of activities that you need to do as well as remove activites that you have done.]
+This is a project that you can make a list of activities that you need to do as well as remove activites that you have done.
 
 ``` python
 
@@ -308,7 +308,7 @@ def play_guessing_game():
 
                 if best_score is None or attempts < best_score:
                     best_score = attempts
-                    print("🎉 New best score!")
+                    print(" New best score!")
 
                 print(f"Best score: {best_score}")
                 break
@@ -411,7 +411,7 @@ main()
 <img width="184" height="383" alt="image" src="https://github.com/user-attachments/assets/e97cb0c3-80d0-484d-9ce1-24e1be672356" />
 
 
-[The program runs a simple loop that keeps a list called tasks, shows you a menu of options, and lets you either view the list, add a new item, or remove an existing one; each option calls a different function—show_tasks prints all tasks with numbers, add_task asks you for a new task and appends it to the list, and remove_task displays the tasks again and deletes the one whose number you enter—until you choose to quit, which breaks the loop and ends the program.]
+The program runs a simple loop that keeps a list called tasks, shows you a menu of options, and lets you either view the list, add a new item, or remove an existing one; each option calls a different function—show_tasks prints all tasks with numbers, add_task asks you for a new task and appends it to the list, and remove_task displays the tasks again and deletes the one whose number you enter—until you choose to quit, which breaks the loop and ends the program.
 
 ## Project 4: Calculator - Portfolio Projects
 
@@ -493,10 +493,10 @@ main()
 
 ![alt text](image-3.png)
 
-[The calculator program runs a looped menu that lets the user choose between three different calculations—volume of a cube, price elasticity of demand (PED), and percentage change—and each option calls its own function to collect inputs, perform the math, and display the result; the menu keeps repeating until the user selects option 4 to quit, and the program also uses try/except blocks to prevent crashes when someone enters something that isn’t a number.]
+The calculator program runs a looped menu that lets the user choose between three different calculations—volume of a cube, price elasticity of demand (PED), and percentage change—and each option calls its own function to collect inputs, perform the math, and display the result; the menu keeps repeating until the user selects option 4 to quit, and the program also uses try/except blocks to prevent crashes when someone enters something that isn’t a number.
 
 ## Prpject 5: Multiplication table - Portfolio Projects
-[]
+
 
 ``` python
 
@@ -513,10 +513,10 @@ for i in range(1, 11):
 
 ![alt text](image-2.png)
 
-[The multiplication‑table program is a simple script that asks the user for a number, then uses a `for` loop to multiply that number by every value from 1 to 10 and print each result in a clean, readable format; essentially, it takes one input and produces a full **multiplication table** by repeating the same calculation with different multipliers.]
+The multiplication‑table program is a simple script that asks the user for a number, then uses a `for` loop to multiply that number by every value from 1 to 10 and print each result in a clean, readable format; essentially, it takes one input and produces a full **multiplication table** by repeating the same calculation with different multipliers.
 
 ## Project 6: Databse - Portfolio Projects
-[This project is all about a databse that stores films, directors and my rating of it]
+This project is all about a databse that stores films, directors and my rating of it
 
 ```
 
@@ -645,7 +645,7 @@ main()
 ```
 ![alt text](image-4.png)
 
-[The film‑database project works by creating a small **SQLite database** on your computer, then giving you a menu that lets you **add films, view them, update ratings, or delete entries**. Each menu option calls a different function: the program first ensures the database and table exist, then **insertDatawithParameters** collects movie details from the user and saves them; **readDataBase** retrieves and prints all stored films; **removeItem** deletes a movie by its ID; and **updateItem** changes the rating of a selected film. The `main()` loop keeps showing the menu until you choose to quit, making it a simple but complete CRUD system (Create, Read, Update, Delete) for managing your personal movie list.]
+The film‑database project works by creating a small **SQLite database** on your computer, then giving you a menu that lets you **add films, view them, update ratings, or delete entries**. Each menu option calls a different function: the program first ensures the database and table exist, then **insertDatawithParameters** collects movie details from the user and saves them; **readDataBase** retrieves and prints all stored films; **removeItem** deletes a movie by its ID; and **updateItem** changes the rating of a selected film. The `main()` loop keeps showing the menu until you choose to quit, making it a simple but complete CRUD system (Create, Read, Update, Delete) for managing your personal movie list.
 
 
 ## Project 7 OOP bank account - Portfolio Projects
@@ -752,7 +752,7 @@ main()
 ```
 <img width="196" height="389" alt="image" src="https://github.com/user-attachments/assets/ed043012-6a01-4c2f-a2b6-0a4d08d3852d" />
 
-[This works by giving you multiple options to deposit money into your account and then you can view your account and see the added amount of money, or withdraw from the account.]
+This works by giving you multiple options to deposit money into your account and then you can view your account and see the added amount of money, or withdraw from the account.
 
 ## Portfolio 8 - Contact book with file saivngs - Portfolio Projects
 
@@ -844,4 +844,4 @@ main()
 ```
 <img width="165" height="280" alt="image" src="https://github.com/user-attachments/assets/dd333781-300b-4994-bfa1-0106931fb1c3" />
 
-[you can add contacts to and create a filling system, the code asks what number and you have options to view or add contacts, creating a notebook, with files, which you can add to and view.]
+You can add contacts to and create a filling system, the code asks what number and you have options to view or add contacts, creating a notebook, with files, which you can add to and view.
