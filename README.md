@@ -650,7 +650,7 @@ main()
 
 ## Project 7 OOP bank account - Portfolio Projects
 
-''' 
+```
 class BankAccount:
     def __init__(self, owner, balance=0):
         self.owner = owner
@@ -749,14 +749,14 @@ def main():
 
 
 main()
-'''
+```
 <img width="196" height="389" alt="image" src="https://github.com/user-attachments/assets/ed043012-6a01-4c2f-a2b6-0a4d08d3852d" />
 
 [This works by giving you multiple options to deposit money into your account and then you can view your account and see the added amount of money, or withdraw from the account.]
 
 ## Portfolio 8 - Contact book with file saivngs - Portfolio Projects
 
-''' 
+```
 import os
 
 FILENAME = "contacts.txt"
@@ -841,6 +841,6 @@ def main():
 
 # Run program
 main()
-'''
+```
 <img width="165" height="280" alt="image" src="https://github.com/user-attachments/assets/dd333781-300b-4994-bfa1-0106931fb1c3" />
 
