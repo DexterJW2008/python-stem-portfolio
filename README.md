@@ -35,7 +35,7 @@ Python programming portfolio - Bishop's Stortford College STEM course
 | 5 | [Multiplication Table](#) | loops | ✅Complete |
 | 6 | [Database](#) |  Add data - crude operations, update, read | ✅Complete |
 | 7 | [OOP Bank Account](#) | Classes, OOP principles | ✅ Complete |
-| 8 | [Data Analysis Notebook](#) | Jupyter Notebooks, data exploration | ✅ Complete |
+| 8 | [Contact Notebook](#) | Jupyter Notebooks, data exploration | ✅ Complete |
 
 ---
 
@@ -844,3 +844,4 @@ main()
 ```
 <img width="165" height="280" alt="image" src="https://github.com/user-attachments/assets/dd333781-300b-4994-bfa1-0106931fb1c3" />
 
+[you can add contacts to and create a filling system, the code asks what number and you have options to view or add contacts, creating a notebook, with files, which you can add to and view.
